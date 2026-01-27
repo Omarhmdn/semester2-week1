@@ -11,3 +11,5 @@
 -- write your sql code here
 
 SELECT * from books;
+SELECT * from books Order by rating DESC limit 5;
+SELECT * from books Order by published_year DESC limit 3;

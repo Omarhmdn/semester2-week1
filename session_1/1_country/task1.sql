@@ -13,3 +13,8 @@
 -- write your sql code here
 
 SELECT * from countries;
+SELECT Country, Population FROM countries;
+SELECT * FROM countries WHERE Continent = 'Europe';
+SELECT * FROM countries WHERE Population > 100000000;
+SELECT * FROM countries WHERE Continent = 'Asia' AND GDPPerCapita > 20000;
+SELECT * FROM countries WHERE LiteracyPercent < 70
