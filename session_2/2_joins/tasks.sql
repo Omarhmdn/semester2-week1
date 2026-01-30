@@ -7,3 +7,7 @@
 -- 2. Load this script: .read tasks.sql
 -- 3. Exit SQLite: .exit
 
+--SELECT * FROM posts WHERE deleted = 1;
+SELECT username
+FROM users 
+WHERE username LIKE 'a%';
